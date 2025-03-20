@@ -1,0 +1,29 @@
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    border: 1px solid black;
+  }
+  
+  th, td {
+    border: 1px solid #110b0b;
+    padding: 8px;
+    text-align: right;
+  }
+  
+  th {
+    background-color: #01faff;
+    text-align: center; 
+  }
+  
+
+  .totals {
+    font-weight: bold;
+    background-color: #01faff;
+
+  }
+  
+  td:first-child, th:first-child {
+    text-align: left;
+  }
